@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Fredoka&display=swap');
+
+header{
+    background: #2c7ee2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: 'Fredoka', sans-serif;
+    padding:0 30px;
+    position: sticky;
+    top:0;
+    z-index: 5; /*eixo vertical(z)*/
+}
+
+.menu{
+    margin:0;
+    display: flex;  
+    align-items: center;
+    list-style: none;
+    justify-content:center;
+}
+@media (max-width: 430px) {
+    .menu{
+        display: none;
+    } 
+}
+
+.item-menu{
+    margin: 0 10px;
+    font-size:1.3rem;
+    cursor:pointer;
+}

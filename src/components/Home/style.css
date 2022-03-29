@@ -1,0 +1,83 @@
+#home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin:auto;
+}
+
+.container-home{
+    padding: 92px 0;
+    background: #ffcc58;
+    border-radius: 54px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.container-img{
+    width:25rem;
+    text-align:center;
+}
+
+.foto-perfil{
+    width: 100%;
+    box-shadow: 2px 5px 100px 10px #fc821077;
+    border-radius: 50px;
+    transition: 0.10s;
+}
+
+.foto-perfil:hover{
+    border: 5px solid #FC8410;
+}
+
+.texto-home h3{
+    margin:auto;
+    margin-bottom: 60px;
+    width: 293px;
+    height: 93px;
+    font-family: 'Fredericka the Great';
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 75px;
+    text-align: center;
+    color: #000000;
+}
+
+.texto-home{
+    text-align: center;
+}
+
+#home .texto-home p{
+    width:30rem;
+    font-family: 'Fredoka', sans-serif;
+    font-size:21px;
+    font-weight: 500;
+    text-justify: 50px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 6rem;
+}
+
+@media (max-width: 1024px ){
+
+    .foto-perfil {
+        width: 90%;
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-home {
+        padding: 92px 0;
+        gap: 4rem;
+        flex-direction: column;
+    } 
+}
+
+@media (max-width: 420px ){
+
+    #home .texto-home p {
+        width:0 rem;
+    }
+}

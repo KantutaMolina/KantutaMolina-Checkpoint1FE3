@@ -1,0 +1,27 @@
+.content-sociais{
+    border-top: 2px solid #e94f07;
+    padding: 50px;
+}
+
+.redes{
+    height: 50px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.icons{
+    transition: all .5s ease;
+}
+
+.icons:hover{
+    transform: scale(1.5);
+}
+
+.contato{
+    font-family: 'Fredericka the Great';
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom:40px;
+}

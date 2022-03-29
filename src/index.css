@@ -1,0 +1,15 @@
+body {
+
+  background: #fc8410;
+  background: linear-gradient(180deg, #fc8410 10%, #ffcc58 50%, #fc8410 130%);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display:flex;
+  flex-direction: column;
+  min-height:100vh;
+  justify-content: space-between;
+}
